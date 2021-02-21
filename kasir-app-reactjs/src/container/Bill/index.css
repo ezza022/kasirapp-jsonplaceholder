@@ -1,0 +1,109 @@
+.bill {
+  flex: 1;
+  background-color: rgb(71, 94, 34);
+}
+.bill .title h3 {
+  color: white;
+}
+
+.bill .content {
+  border: 2px solid rgb(126, 167, 60);
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 1%;
+}
+
+.bill .body {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  align-items: flex-start;
+}
+
+.bill .body .body-wrap {
+  width: 100%;
+}
+
+.bill-container {
+  display: flex;
+  padding: 0 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.bill-container .keterangan,
+.bill-container .harga {
+  flex: 3;
+}
+
+.bill-container .keterangan {
+  margin: auto;
+  line-height: 10px;
+}
+
+.bill-container .keterangan p:nth-child(1) {
+  font-weight: bold;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.bill-container .keterangan p:nth-child(1):hover {
+  color: red;
+  transition: 0.1s;
+}
+
+.bill-container .keterangan p:nth-child(2) {
+  color: rgb(71, 94, 34);
+}
+
+.bill-container .jumlah {
+  flex: 1;
+  margin: auto;
+}
+
+.bill-container .jumlah p {
+  text-align: center;
+  line-height: 28px;
+  width: 28px;
+  height: 28px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+}
+
+.bill-container .harga {
+  margin: auto;
+  text-align: right;
+}
+
+.checkout-container {
+  align-self: flex-end;
+  width: 100%;
+  height: 16%;
+  z-index: 2;
+}
+
+.checkout-container .checkout-info {
+  display: flex;
+}
+
+.checkout-container .checkout-info p {
+  margin: 0 10px;
+  flex: 1;
+}
+
+.checkout-button {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.checkout-button a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(71, 94, 34);
+  padding: 7px 155px;
+  border-radius: 4px;
+  cursor: pointer;
+}

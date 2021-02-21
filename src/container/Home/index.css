@@ -1,0 +1,17 @@
+.kasirApp{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.kasirApp .bill .content{
+    background-color: white;
+    width: 94%;
+    height: 80%;
+}
+.menu, .bill{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
